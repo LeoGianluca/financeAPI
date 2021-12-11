@@ -1,0 +1,18 @@
+{
+  "name": "financeapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leonardo Gianluca <leogianluca.costa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
